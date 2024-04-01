@@ -1,6 +1,8 @@
 
 interface TodoProps {
-    date: string; // тип даты можно изменить в соответствии с вашими требованиями
+    id: number;
+    title: string;
+    date: string; 
 }
 export function Todo({date}: TodoProps) {
     return (
