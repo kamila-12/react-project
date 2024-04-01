@@ -17,9 +17,9 @@ export function List() {
 
        </div>
        
-           <Todo />
-           <Todo />
-           <Todo />
+           <Todo date="2024-03-31" />
+           <Todo date="2024-03-31" />
+           <Todo date="2024-03-31"/>
        </>
    )
 }
