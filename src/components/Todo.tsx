@@ -1,22 +1,3 @@
-// import {Task} from '../types'
-
-// export function Todo(todo: Task, editTodo: (id: number, todo: Task) => void, 
-// deleteTodo: (id: number) => void
-// ) {
-//     return (
-//         <div style={{display: 'flex', flexDirection: 'column'}}>
-//             <div style={{ display: 'flex', alignItems: 'center' }}>
-            
-//             <input className="form-check-input" type="checkbox" value=""></input>
-//             <p style={{ margin: '0 10px' }}>Create project</p>
-//             <p>{todo.title}</p>
-//             <button type="button" className="btn btn-secondary" onClick={editTodo}>Edit</button>
-//             <button type="button" className="btn btn-danger" onClick={deleteTodo}>Delete</button>
-//             </div>
-
-//         </div>
-//     )
-//  }
 
 import { Task } from '../types'
 

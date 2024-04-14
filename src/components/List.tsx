@@ -5,15 +5,7 @@ import {Task} from '../types'
 
 
 export function List() {
-    // использование react hook useState
-    // const [todos, setTodos] = useState([ {id: 1, title: 'Create react app', date: '01.04'} ]);
-     // const addTodo = () => {
-    //     setTodos([ ...todos, {id: 2, title: 'Run react app', date: '01.04'} ])
-    // }
-    // const [todos, setTodos] = useState<Task[]>([])
-    // const addTodo = () => {
-    //     setTodos([ ...todos, {id: Date.now(), title: '', date: new Date().toLocaleDateString(), status: 'opened'}])
-    //  }
+
     const [todos, setTodos] = useState<Task[]>([{
         id: 1, 
         title: 'Create react app', 
