@@ -1,7 +1,8 @@
 export interface Task {
-    id: number | string;
+    id: number;
     title: string;
     date: string;
-    status: 'opened' | 'completed';
+    status: string;
  }
+ 
  
